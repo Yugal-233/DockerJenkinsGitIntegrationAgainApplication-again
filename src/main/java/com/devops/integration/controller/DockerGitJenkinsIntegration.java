@@ -10,4 +10,8 @@ public class DockerGitJenkinsIntegration {
 	public String DockerGitJenkinsIntegrationData() {
 		return "DockerGitJenkinsIntegration is successfully Done"; 
 	}
+	@GetMapping("/sample")
+	public String DockerGitJenkinsIntegrationsample() {
+		return "DockerGitJenkinsIntegration is successfully Done"; 
+	}
 }
