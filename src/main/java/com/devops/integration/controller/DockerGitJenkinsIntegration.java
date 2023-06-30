@@ -12,6 +12,6 @@ public class DockerGitJenkinsIntegration {
 	}
 	@GetMapping("/sample")
 	public String DockerGitJenkinsIntegrationsample() {
-		return "DockerGitJenkinsIntegration is successfully Done"; 
+		return "DockerGitJenkinsIntegration is successfully Done again"; 
 	}
 }
